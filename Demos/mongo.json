@@ -1,0 +1,8 @@
+mongo   
+
+use shoppingcart    
+db.cartItems.insert({
+  name: "bag",
+  quantity: 5,
+  price: 560
+})
